@@ -1,0 +1,3 @@
+-Motor usado é de micro-ondas
+-Usei termistor, rolos, lâmpadas e parte da estrutura originais da HP Laserjet 9000
+-Alimentação do microcontrolador STM32F103C8T6 (blue pill): carregador de celular 5V

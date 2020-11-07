@@ -1,0 +1,15 @@
+s = tf('s');
+%Modelo ordem 3
+Gp = 292.61/((1+218.89*s)*(1+30.713*s)*(1+28.38*s))
+%step(Gp)
+plant_poles = pole(Gp)
+pzmap(Gp)
+Gc = (s-plant_poles(1))*(s-plant_poles(3))/s
+
+%Ganho 0.205, maior ganho com mínimo de overshoot (0.7%)
+rlocus(Gp*Gc)
+
+Gc = 0.205*Gc
+
+T = feedback(1
+step(1+G*Gc)
