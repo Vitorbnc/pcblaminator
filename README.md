@@ -1,5 +1,7 @@
 # pcblaminator
-A Thermal Laminator for laminating PCBs and UV Photoresist made with an old  laserjet printer fuser 
+A Thermal Laminator for laminating PCBs and UV Photoresist made with an old  laserjet printer fuser
+
+See a [quick demo (without photoresist)](https://youtu.be/e4A-39woypc).
 
 Here you will find details on how to build a PCB laminator to use with uv-sensitive (dry-film, etc) methods. 
 
